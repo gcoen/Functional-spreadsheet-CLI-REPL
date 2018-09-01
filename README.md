@@ -2,7 +2,7 @@
 
 Some years ago (2009-2010) I had the idea of a functional spreadsheet. A spreadsheet where each cell contains a Lisp expression.
 
-I explored the idea and considered several different spreadsheets. Like Resolver One, which was mentioned to me by my friend Luciano Ramalho. This is a spreadsheet which accepts Python programs in the cells. And which converts the spreadsheet in a Python program and vice-versa. Interesting.
+I explored the idea and considered several different spreadsheets. Like Resolver One, which was mentioned to me by my friend Luciano Ramalho (author of Fluent Python). This is a spreadsheet which accepts Python programs in the cells. And which converts the spreadsheet in a Python program and vice-versa. Interesting.
 
 There are several other different spreadsheets. References in my blog (December 10, 2010):
 
