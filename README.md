@@ -52,11 +52,16 @@ Unified CLI. Programming language(s) as the scrip language. CLI commands are fun
 
 # The Plan
 A. the CLI
+
 B. Implement the REPL as a language: Scheme? Python?
   CLI commands as as functions of the language 
+
 C. Concurrent Processing + two-dimensional interface
+
 D. Memory management
+
 E. Implement more CLI commands
+
 F. Libraries, libraries, libraries: more functions
 
 
