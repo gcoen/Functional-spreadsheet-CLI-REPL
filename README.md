@@ -14,7 +14,7 @@ There is also the spreadsheet example in the SICP book. And the spreadsheet in E
 
 The difference is that if each cells contains a Lisp expression, the execution of the spreadsheet is extremely simple. It consits of simply eval(cell). That is it! No parser, no difference between numbers and formulas and strings.
 
-The complete Lisp program (minus two dimensions visualization) for a spreadsheet is:
+The complete Lisp program (minus two dimensions visualization) for my spreadsheet is:
 
   (mapcar (function eval) spreadsheet)
 
@@ -36,16 +36,16 @@ The REPL is the engine of a universal machine.
 
 So, why not generalize: use a language like Python as the CLI language. Or Lisp (or Scheme, or ...). Convert the CLI commands in functions of the language. This should be easy. Et voilá!
 
-The occasional user of the CLI will not even notice he is using a complete programming language. And the programmer has a complete and unified environment. Also can use the CLI commands as functions in his programs.
+The occasional user of the CLI will not even notice he is using a complete programming language. And the programmer has a complete and unified environment. He can also use the CLI commands as functions in his programs.
 
 It can be noticed that the CLI REPL works with one command per use. We can consider this to be a spreadsheet with only one cell. And we can generalize to a CLI as a spreadsheet with a two-dimensional user interface.
 
 We can put multiprocessing in that spreadsheet, where each cell starts a program (LISP expression). All programs run in parallel.
 
 # UI
-The Windows-GUi has proven to be impractical for the user. Frequently he asks "how can i do xxx?". The command line model is more clear to the occasional, non-computer familiar, or old user. The browser is a more intuitive interface.
+The Windows-GUi has proven to be impractical for may users. Frequently someone asks "how can I do xxx?". The command line model is more clear to the occasional, non-computer familiar, or old user. Why not let the user work with the CLI?
 
-Why not let the user work with the CLI?
+Note that the browser is a more intuitive interface.
 
 # The Project
 Unified CLI. Programming language(s) as the scrip language. CLI commands are functions of the language. REPL as a spreadsheet input/ouput tool.
@@ -54,7 +54,7 @@ Unified CLI. Programming language(s) as the scrip language. CLI commands are fun
 A. the CLI
 
 B. Implement the REPL as a language: Scheme? Python?
-  CLI commands as as functions of the language 
+  CLI commands as functions of the language 
 
 C. Concurrent Processing + two-dimensional interface
 
