@@ -28,7 +28,7 @@ From this we can think of complete system built starting with a spreadshhet, we 
 
 What is the machine behind the idea of a spreadsheet? REPL. Read-Evaluate-Print-Loop
 
-An how do we use Lisp, Scheme and also Python? REPL again. As far as I know, the first use of REPL was the LISP interpreter, by Steve Russell.
+And how do we use Lisp, Scheme and also Python? REPL again. As far as I know, the first use of REPL was the LISP interpreter, by Steve Russell.
 
 And what about a CLI? It's again a REPL. Plus a scripting language like Bash.
 
