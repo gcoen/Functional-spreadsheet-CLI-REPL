@@ -19,17 +19,24 @@ The project started with some ideas:
 Some years ago (2009-2010) I had the idea of a functional spreadsheet. A spreadsheet where each cell contains a Lisp expression.
 
 I explored the idea and considered several different spreadsheets. Like Resolver One, which was mentioned to me by my friend Luciano Ramalho (author of Fluent Python). This is a spreadsheet which accepts Python programs in the cells. And which converts the spreadsheet in a Python program and vice-versa. Interesting.
+
 There are several other different spreadsheets. References in my blog (December 10, 2010):
+
 http://fimdosoftware.blogspot.com/2010/12/spreadsheets-looking-around.html
+
 None has exactly my idea.
 There is also the spreadsheet example in the SICP book. And the spreadsheet in Emacs. But these are conventional spreadsheets. Work like Excel, but written in Scheme. Or Lisp. Or a different language.
+
 The difference is that if each cells contains a Lisp expression, the execution of the spreadsheet is extremely simple. It consits of simply eval(cell). That is it! No parser, no difference between numbers and formulas and strings.
+
 The complete Lisp program (minus two dimensions visualization) for my spreadsheet is:
 
     (mapcar (function eval) spreadsheet)
 
 I mentioned this idea in my personal blog (March 7, 2010).
+
 The strenght of this idea come from the basic idea of a universal machine: program and data are the same. Which is preserved in Lisp.
+
 From this we can think of complete system built starting with a spreadshhet, we can think of multi-processing where each cell of a spreadsheet starts a process, and so on.
 ## Spreadsheet references
 Several cases. See my directory, PSABA, urls in bookmarks, fim do software blog, github, Resolver one e and more.
