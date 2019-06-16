@@ -150,3 +150,4 @@ https://sites.google.com/site/gcoendeposito/sicp-discussao-ideias-planilh
 https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxnY29lbmRlcG9zaXRvfGd4OjJlYWM0MmZmMTMwOWFhM2M Desunivesalização do software
 https://fimdosoftware.blogspot.com/2013/04/spreadsheet-programming-problems.html
 https://fimdosoftware.blogspot.com/2013/02/spreadsheet-as-model.html
+
