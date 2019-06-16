@@ -3,6 +3,7 @@
  - Languages, tools, methods, computing science.
  - Lessons and ideas. See my blog: [http://fimdosoftware.blogspot.com/]
  - My goal here is to use and apply what I learned. To develop a different *user interface and development environment*. Both for developers and for end users.
+
 # First ideas
 The project started with some ideas:
  - A spreadsheet written in a funcional language.
@@ -15,6 +16,7 @@ The project started with some ideas:
  - Using the concept or universal machine as a model for: CLI, REPL, Spreadsheet, APIs, frameworks.
  - Use the idea of strict programming: no frameworks, only libraries. The program runs on a universal machine and communicate with other machines (universal or not).
  - My experience to bring a language to the interface has been positive. This includes Assembly language. No prejudice against Assembly languages.
+
 # Functional-spreadsheet
 Some years ago (2009-2010) I had the idea of a functional spreadsheet. A spreadsheet where each cell contains a Lisp expression.
 
@@ -38,6 +40,7 @@ I mentioned this idea in my personal blog (March 7, 2010).
 The strenght of this idea come from the basic idea of a universal machine: program and data are the same. Which is preserved in Lisp.
 
 From this we can think of complete system built starting with a spreadshhet, we can think of multi-processing where each cell of a spreadsheet starts a process, and so on.
+
 ## Spreadsheet references
 Several cases. See my directory, PSABA, urls in bookmarks, fim do software blog, github, Resolver one e and more.
 
@@ -97,6 +100,7 @@ https://opensource.com/article/18/7/node-js-interactive-cli
 https://www.infoq.com/articles/azure-cloud-shell
 
 http://click.pocoo.org/5/   Python libray for CLI
+
 
 ## REPL references
 https://repl.it/
@@ -226,6 +230,7 @@ Unified CLI. Programming language(s) as the scrip language. CLI commands are fun
 - Use existing software, libraries, tools. Open source.
 - Check if the proposed software already existes: compilers, editors. Special note: JupyterLabs seems to have implemented several of these ideas. Like for example the CLI command as a function of the language. Review Jupyter.
 - Keep everything *simple*: avoid transpilers, avoid several layers of software. A program should be translated from the language, high or low level, to machine code. OK to check webassembly, ok to try to run in the browser as an alternative. But avoid transpilers. Avoid loss of performance due to running on top of other software. The software should even run on UEFI.
+
 # The Plan
  - the CLI
 - Implement the REPL as a language: Scheme? Python?
@@ -234,8 +239,10 @@ Unified CLI. Programming language(s) as the scrip language. CLI commands are fun
 - Memory management
 - Implement more CLI commands
 - Libraries, libraries, libraries: more functions
+
 # References
 (some in Portuguese)
+
 ## General
 https://sites.google.com/site/gcoendeposito/sicp-discussao-ideias-planilh
 
