@@ -101,6 +101,7 @@ https://www.infoq.com/articles/azure-cloud-shell
 
 http://click.pocoo.org/5/   Python libray for CLI
 
+https://www.quora.com/Can-Julia-replace-Common-Lisp-for-non-numerical-computing   *** Lisp parser for the CLI! ***
 
 ## REPL references
 https://repl.it/
