@@ -124,6 +124,10 @@ https://opensource.com/article/19/4/command-line-playgrounds-webassembly
 
 https://www.quora.com/Why-should-I-learn-JavaScript-once-WebAssembly-is-available
 
+https://www.quora.com/Why-do-so-many-developers-think-the-future-of-web-development-is-WebAssembly
+
+https://hacks.mozilla.org/2018/10/webassemblys-post-mvp-future/
+
 In Javascript?
 
 Implement some commands
