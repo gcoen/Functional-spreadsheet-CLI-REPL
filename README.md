@@ -9,9 +9,10 @@
 # Research
 - Found many similar ideas.
 - None exactly the same.
-- 2 most important references:
-Resolver One
-Implementing Function Spreadsheets - Peter Sestoft - 10.1.1.1025.7010.pdf
+
+## 2 most important references:
+- Resolver One
+- Implementing Function Spreadsheets - Peter Sestoft - 10.1.1.1025.7010.pdf
 
 # Experience
  - 40+ years of software development.
