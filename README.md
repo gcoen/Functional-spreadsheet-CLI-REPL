@@ -1,7 +1,7 @@
 # Experience
  - 40+ years of software development.
- - Languages, tools, methods, computing science.
- - Lessons and ideas. See my blog: [http://fimdosoftware.blogspot.com/]
+ - Languages, tools, methods, computing science, mathematics.
+ - Lessons and ideas. See my blog: [http://fimdosoftware.blogspot.com/ ]
  - My goal here is to use and apply what I learned. To develop a different *user interface and development environment*. Both for developers and for end users.
 
 # First ideas
@@ -15,7 +15,7 @@ The project started with some ideas:
  - A CLI running a functional language.
  - Using the concept or universal machine as a model for: CLI, REPL, Spreadsheet, APIs, frameworks.
  - Use the idea of strict programming: no frameworks, only libraries. The program runs on a universal machine and communicate with other machines (universal or not).
- - My experience to bring a language to the interface has been positive. This includes Assembly language. No prejudice against Assembly languages.
+ - My experience to bring a language to the interface has been positive. This includes Assembly language. No prejudice against Assembly languages. Or any language.
 
 # Functional-spreadsheet
 Some years ago (2009-2010) I had the idea of a functional spreadsheet. A spreadsheet where each cell contains a Lisp expression.
@@ -27,11 +27,12 @@ There are several other different spreadsheets. References in my blog (December 
 http://fimdosoftware.blogspot.com/2010/12/spreadsheets-looking-around.html
 
 None has exactly my idea.
+
 There is also the spreadsheet example in the SICP book. And the spreadsheet in Emacs. But these are conventional spreadsheets. Work like Excel, but written in Scheme. Or Lisp. Or a different language.
 
-The difference is that if each cells contains a Lisp expression, the execution of the spreadsheet is extremely simple. It consits of simply eval(cell). That is it! No parser, no difference between numbers and formulas and strings.
+The difference is that if each cell contains a Lisp expression, the execution of the spreadsheet is extremely simple. It consits of simply eval(cell). That is it! No parser, no difference between numbers and formulas and strings.
 
-The complete Lisp program (minus two dimensions visualization) for my spreadsheet is:
+The complete Lisp program (minus the two dimensional visualization) for my spreadsheet is:
 
     (mapcar (function eval) spreadsheet)
 
@@ -42,7 +43,7 @@ The strenght of this idea come from the basic idea of a universal machine: progr
 From this we can think of complete system built starting with a spreadshhet, we can think of multi-processing where each cell of a spreadsheet starts a process, and so on.
 
 ## Spreadsheet references
-Several cases. See my directory, PSABA, urls in bookmarks, fim do software blog, github, Resolver one e and more.
+Several cases. See my directory, PSABA, urls in bookmarks, fim do software blog, github, Resolver one and more.
 
 Could be used by the client: https://dzone.com/articles/keikai-spreadsheet-for-big-data
 
@@ -51,8 +52,7 @@ What is the machine behind the idea of a spreadsheet? REPL. Read-Evaluate-Print-
 
 And how do we use Lisp, Scheme and also Python? REPL again. As far as I know, the first use of REPL was the LISP interpreter, by Steve Russell.
 
-And what about a CLI? It's again a REPL. Plus a scripting language like Bash.
-The REPL is the engine of a universal machine.
+And what about a CLI? It's again a REPL. Plus a scripting language like Bash. The REPL is the engine of a universal machine.
 
 So, why not generalize: use a language like Python as the CLI language. Or Lisp (or Scheme, or ...). Convert the CLI commands in functions of the language. This should be easy. Et voilá!
 
@@ -85,7 +85,7 @@ http://docopt.org/
 
 To relate the CLI language with the CLI (Common Language Infrastruture of .Net)?
 
-Chack L#, Lisp#, A#, IronScheme, Algol68? Ada?
+Check L#, Lisp#, A#, IronScheme, Algol68? Ada?
 
 https://www.quora.com/Which-programming-language-should-I-use-for-a-command-line-tool
 
@@ -128,6 +128,8 @@ https://www.quora.com/Why-do-so-many-developers-think-the-future-of-web-developm
 
 https://hacks.mozilla.org/2018/10/webassemblys-post-mvp-future/
 
+
+
 In Javascript?
 
 Implement some commands
@@ -142,7 +144,7 @@ Attention, Python has:   *****
 		
 		code	Facilities to implement read-eval-print loops.
 		
-		(see em https://docs.python.org/3/py-modindex.html)
+		(see https://docs.python.org/3/py-modindex.html)
 		
 		There is also a csv module
 		
@@ -168,7 +170,7 @@ https://fr.quora.com/A-quoi-sert-lAST-g%C3%A9n%C3%A9r%C3%A9-par-Clang-Est-ce-%C3
 
 (A quoi sert l'AST généré par Clang ? Est-ce à partir de ce nouveau "format texte" que le code assembleur est généré ?)
 
-See aboce + documentation explaining the Python compiler (CPython), the use of C, etc... Check stackoverflow.
+See above + documentation explaining the Python compiler (CPython), the use of C, etc... Check stackoverflow.
 
 https://www.quora.com/Do-some-Lisp-programmers-desire-modern-Lisp-which-is-considerably-different-than-Clojure   Modern Lisp? ABCL? Use Jvm? Or other VM?
 
@@ -227,7 +229,7 @@ Check also linear algebra applied to programs as a tool to  validate the correct
 At each step and study phase, organize the knowledge as a course. Publish it.
 
 # The Project
-Unified CLI. Programming language(s) as the scrip language. CLI commands are functions of the language. REPL as a spreadsheet input/ouput tool.
+Unified CLI. Programming language(s) as the scrip language. CLI commands are functions of the language. REPL as a functional spreadsheet input/ouput tool.
    
 # The Method
 - Software development.
@@ -237,7 +239,8 @@ Unified CLI. Programming language(s) as the scrip language. CLI commands are fun
 - Keep everything *simple*: avoid transpilers, avoid several layers of software. A program should be translated from the language, high or low level, to machine code. OK to check webassembly, ok to try to run in the browser as an alternative. But avoid transpilers. Avoid loss of performance due to running on top of other software. The software should even run on UEFI.
 
 # The Plan
- - the CLI
+- The functional spreadshhet
+- the CLI
 - Implement the REPL as a language: Scheme? Python?
 - CLI commands as functions of the language 
 - Concurrent Processing + two-dimensional interface
