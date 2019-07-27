@@ -12,7 +12,7 @@
 
 ## 2 most important references:
 - Resolver One
-- Implementing Function Spreadsheets - Peter Sestoft - 10.1.1.1025.7010.pdf
+- Implementing Function Spreadsheets - Peter Sestoft - 10.1.1.1025.7010.pdf [function, not functional]
 
 # Experience
  - 40+ years of software development.
