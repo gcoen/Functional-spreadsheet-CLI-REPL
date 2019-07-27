@@ -1,3 +1,18 @@
+# The project
+- Develop a functional spreadsheet.
+- Written in a functional language.
+- Each cell contains a functional language expression.
+- The engine consits of a simple eval of each cell.
+- The spreadsheet will be also a CLI/REPL.
+- Raw ideas below.
+
+# Research
+- Found many similar ideas.
+- None exactly the same.
+- 2 most important references:
+Resolver One
+Implementing Function Spreadsheets - Peter Sestoft - 10.1.1.1025.7010.pdf
+
 # Experience
  - 40+ years of software development.
  - Languages, tools, methods, computing science, mathematics.
