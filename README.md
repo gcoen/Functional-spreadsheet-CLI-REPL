@@ -34,3 +34,10 @@ Some first applications:
 An evolution of the functional spreadsheet could be applying multiprocessing for the calculation of the cells value. Each cell acting as an independent process. This could speed the calculation but the dependencies of the formula has to be carefully managed.
 
 A functional spreadsheet can also be an IDE for functional program development.
+
+## Gnumeric
+Checking what has been developed lately (2022) observed that Gnome Gnumeric has evolved to be a very solid compatible alternative to Excel. Also corrects some numerical problems of Excel and has better performance. It includes the possibility of developing functions in Python.
+
+The project has as a subproject the possibility of writng funcions in the Guile functional Scheme family language. This Guile initiative has been frozen. Will check the possiblity of developing it.
+
+First step is to understand Gnumeric code thoroughly. (December 2022)
