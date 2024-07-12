@@ -41,3 +41,7 @@ Checking what has been developed lately (2022) observed that Gnome Gnumeric has 
 The project has as a subproject the possibility of writng funcions in the Guile functional Scheme family language. This Guile initiative has been frozen. Will check the possiblity of developing it.
 
 First step is to understand Gnumeric code thoroughly. (December 2022)
+
+## Progress, solution (april/2024)
+This project has evolved and finally changed. From a functional spreadsheet - which is still something that makes sense - it went to a spreadsheet in Python. Means a module that is a complete spreadsheet, which can be imported in a Python program. It is the inverse of the recently announced by Microsoft of "Python-in-Excel". It is more like "Excel-in-Python".
+Developped a prototype, very simple, worked OK. Then a more complete first version, also simple, but with all the logic of a spreadsheet. Worked fine. The GUI has to improve to include all the features of comercial spreadsheets. But the spredsheet logic is ok, with Python expressions. Will be used by professionals who understand that the spreadsheet is more a GUI, input and output device, and the heavy processing has to be done by the Python program. With the spreadsheet data naturally part of the Python code.
